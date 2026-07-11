@@ -1,0 +1,89 @@
+:root{
+  --corTexto: #000;
+  --corTitulo: #004925;
+  --corFundo: #031a02;
+  --corInput: #fff;
+  --corCaixa: #199eee;
+  --corTitle: #cccbbb;
+}
+body{
+  background-color: var( --corFundo);
+  margin: 0px;
+}
+main{
+  background-color: var(--corCaixa);
+  display: block;
+  margin: auto;
+  padding: 5px;
+  border-radius: 15px;
+  width: auto;
+  min-width: 320px;
+  max-width: 800px;
+
+}
+h1{
+  color: var(--corTitulo);
+  background-color: var(--corTitle);
+  margin-top: 0.5px;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-radius: 15px;
+  font-family: Times New Roman;
+  text-align: center;
+}
+h2{
+  font-family: Tahoma;
+  font-weight:normal;
+  
+  width: 100%;
+  text-align: center;
+  color: var(--corInput);
+  text-shadow: 2px 2px 5px var(--corFundo);
+}
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--corInput);
+  text-shadow: 2px 2px 8px var(--corFundo);
+  margin: 10% 10% 15% 10%;
+  font-size: 18px;
+  font-weight: bold;
+  width: auto;
+}
+input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  margin: auto;
+  padding: 5px 10px;
+  border: #0a2a00 solid 1.9px;
+  width: 85%;
+  border-radius: 15px;
+  align-items: center;
+}
+input#vJuros, #vRecebido{
+  background: var(--corInput);
+  display: flex;
+}
+button{
+  font-family: Arial, Helvetica, sans-serif, tahoma, verdana;
+  font-weight: bold;
+  text-align: center;
+  color: var(--corTitulo);
+  width: auto;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  padding: 5px 15px;
+  box-shadow: 5px 5px 10px var(--corFundo);
+  font-size:24px;
+  background-color: var(--corTitle);
+  border-radius: 10px;
+  display: flex;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+  cursor: pointer;
+}
+button:active{
+  border: solid 2px;
+  background-color: red;
+
+}
