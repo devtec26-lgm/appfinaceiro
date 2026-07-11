@@ -1,0 +1,22 @@
+{
+    "short_name": "HermesBank",
+    "name": "Meu App de emprestimo",
+    "description": "Gerenciador financeiro simples rodando direto do celular.",
+    "icons": [
+        {
+            "src": "money.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "money.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#c3d9b2",
+    "theme_color": "#2ecc71",
+    "display": "standalone",
+    "orientation": "portrait"
+}
